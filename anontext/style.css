@@ -1,0 +1,122 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: #26272b;
+  font-family: "Source Code Pro", monospace;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  background-color: #202124;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  font-family: inherit;
+  background-color: #2d2e30;
+  border: none;
+  padding: 0.5rem;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #a0a0a0;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #5c5e60;
+  color: #f0f0f0;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #707378;
+}
+
+textarea {
+  resize: vertical;
+}
+/* ...previous CSS code... */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000%; /* Adjust this value to your desired width, e.g., 60%, 70%, etc. */
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  font-family: inherit;
+  background-color: #2d2e30;
+  border: none;
+  padding: 0.5rem;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+/*end
+/* ...previous CSS code... */
+
+.form-container {
+  background-color: #1f1f1f;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 90%; /* Adjust this value to your desired width, e.g., 100%, 1200px, etc. */
+  margin: 2rem auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* ...remaining CSS code... */
+/* ...previous CSS code... */
+
+.title-input,
+.textarea-input {
+  resize: both;
+  max-width: 5000px;
+  overflow: auto;
+}
